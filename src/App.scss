@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,300;1,700&display=swap');
+@import './styles/Vars.scss';
+@import './styles/Header.scss';
+@import './styles/Home.scss';
+@import './styles/Footer.scss';
+@import './styles/Contact.scss';
+@import './styles/MainSlider..scss';
+@import './styles/Shop.scss';
+@import './styles/About.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Crimson Pro', serif;
+    background: white;
+    overflow:hidden ;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li {
+    list-style-type: none;
+}

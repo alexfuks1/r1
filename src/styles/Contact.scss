@@ -1,0 +1,248 @@
+.contact{
+    height: 100vh;
+    overflow: hidden;
+    .contact-container{
+        padding-top: 15px;
+        .left-contact{
+            border-right: 1px solid black;
+            height: 91vh;
+            .left-contact-wrapper{
+                padding: 7px 33px;
+                font-size: 16px;
+                padding-bottom: 42px;
+                a{
+                    color: black;
+                }
+                .title{
+                    margin: 0;
+                    padding-bottom: 2px;
+                    font-size: 16px;
+
+                }
+                .sub-title{
+                    margin: 0;
+                    padding-bottom: 2px;
+                    font-size: 16px;
+
+                }
+            }
+        }
+        .right-contact{
+            padding: 7px 30px;
+            .terms-tab{
+                .tems-header{
+                    cursor: pointer;
+                    color: #c6c6c6;
+                    font-size: 16px;
+                    margin-bottom: 0.2rem;
+                    h5{
+                        color: #c6c6c6;
+                        font-size: 16px;
+                        margin-bottom: 0.2rem;
+                    }
+                }
+                .terms-wrapper{
+                    display: none;
+                    opacity: 0;
+                    transition: ease-in 0.4s;
+                    height: 0%;
+                    &.active{
+                        height: 100%;
+                        transition: all 0.4s;
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+            .shipping-tab{
+                .tems-header{
+                    cursor: pointer;
+                    // h5{
+                    //     color: #A4A4A4;
+                    // }
+                }
+                .terms-wrapper{
+                    display: none;
+                    opacity: 0;
+                    transition: ease-in 0.4s;
+                    height: 0%;
+                    &.active{
+                        height: 100%;
+                        transition: all 0.4s;
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) { 
+    .contact{
+        height: 100%;
+        overflow: hidden;
+        .contact-container{
+            padding-top: 15px;
+            .left-contact{
+                border-right: 1px solid black;
+                height: 90vh;
+                .left-contact-wrapper{
+                    padding:25px 40px;
+                    
+                    h5{
+                        margin: 0;
+                        padding-bottom: 2px;
+                        font-size: 16px;
+                        
+                    }
+                    h6{
+                        margin: 0;
+                        padding-bottom: 2px;
+                    }
+                }
+            }
+            .right-contact{
+                padding:25px 40px;
+                .terms-tab{
+                    
+                    .tems-header{
+                        cursor: pointer;
+                        color: #A4A4A4;
+                        font-size: 17px;
+                        h5{
+                            color: #A4A4A4;
+                            font-size: 15px;
+                        }
+                    }
+                    .terms-wrapper{
+                        display: none;
+                        opacity: 0;
+                        transition: ease-in 0.4s;
+                        height: 0%;
+                        &.active{
+                            height: 100%;
+                            transition: all 0.4s;
+                            display: block;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .shipping-tab{
+                    .tems-header{
+                        cursor: pointer;
+                        h5{
+                            margin: 0;
+                            padding-bottom: 2px;
+                            font-size: 16px;
+                            
+                        }
+                    }
+                    .terms-wrapper{
+                        display: none;
+                        opacity: 0;
+                        transition: ease-in 0.4s;
+                        height: 0%;
+                        &.active{
+                            height: 100%;
+                            transition: all 0.4s;
+                            display: block;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 575.98px) { 
+    .contact{
+        height: 90vh;
+        overflow: hidden;
+        .contact-container{
+            padding-top: 0px;
+            padding: 25px 14px;
+            .left-contact{
+                border-right: none;
+                border-bottom: 1px solid black;
+                height: 100%;
+                width: 100%;
+                padding: 0px 0px;
+                padding-bottom: 30px;
+                .left-contact-wrapper{
+                    padding:0px 20px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-bottom: 30px;
+                    .main-logo-mobile{
+                        padding: 20px 0;
+                        padding-bottom: 35px;
+                        img{
+                            width: 140px;
+                        }
+                    }
+                    h5{
+                        margin: 0;
+                        padding-bottom: 0px;
+                        padding: 0px 0px;
+                        font-size: 17px;
+                        
+                    }
+                    h6{
+                        margin: 0;
+                        padding-bottom: 2px;
+                    }
+                }
+            }
+            .right-contact{
+                padding:25px 0px;
+                .terms-tab{
+                    
+                    .tems-header{
+                        cursor: pointer;
+                        color: #c6c6c6;
+                        font-size: 17px;
+                        h5{
+                            color: #c6c6c6;
+                            font-size: 15px;
+                        }
+                    }
+                    .terms-wrapper{
+                        display: none;
+                        opacity: 0;
+                        transition: ease-in 0.4s;
+                        height: 0%;
+                        &.active{
+                            height: 100%;
+                            transition: all 0.4s;
+                            display: block;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .shipping-tab{
+                    .tems-header{
+                        cursor: pointer;
+                        h5{
+                            margin: 0;
+                            padding-bottom: 2px;
+                            font-size: 16px;
+                            
+                        }
+                    }
+                    .terms-wrapper{
+                        display: none;
+                        opacity: 0;
+                        transition: ease-in 0.4s;
+                        height: 0%;
+                        &.active{
+                            height: 100%;
+                            transition: all 0.4s;
+                            display: block;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
